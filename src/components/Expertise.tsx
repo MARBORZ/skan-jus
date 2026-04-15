@@ -39,25 +39,15 @@ function ExpertiseIcon({ name }: { name: string }) {
 
 function ExpertiseCard({
   item,
-  index,
-  isLast,
   shouldAnimate,
 }: {
   item: ExpertiseItem
-  index: number
-  isLast: boolean
   shouldAnimate: boolean
 }) {
   return (
     <motion.div
       variants={shouldAnimate ? variants.fadeUp : undefined}
-      className="flex flex-col gap-5 flex-1"
-      style={{
-        paddingRight: isLast ? 0 : 48,
-        paddingLeft: index > 0 ? 48 : 0,
-        borderRight: isLast ? 'none' : '1px solid rgba(212,175,55,0.22)',
-        // On mobile, reset side padding/border
-      }}
+      className="expertise-card flex flex-col gap-5 flex-1"
     >
       <ExpertiseIcon name={item.icon} />
       <h3
@@ -103,12 +93,10 @@ export function Expertise() {
           whileInView={shouldAnimate ? 'visible' : undefined}
           viewport={viewport}
         >
-          {EXPERTISE_ITEMS.map((item, i) => (
+          {EXPERTISE_ITEMS.map((item) => (
             <ExpertiseCard
               key={item.icon}
               item={item}
-              index={i}
-              isLast={i === EXPERTISE_ITEMS.length - 1}
               shouldAnimate={shouldAnimate}
             />
           ))}

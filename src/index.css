@@ -116,14 +116,48 @@ html.lenis, html.lenis body { height: auto; }
 .expertise-grid {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 0;
   width: 100%;
 }
 
 @media (min-width: 768px) {
   .expertise-grid {
     flex-direction: row;
-    gap: 0;
+  }
+}
+
+/* Mobile: horizontal divider + equal padding between cards */
+.expertise-card {
+  padding-left: 0;
+  padding-right: 0;
+  border-right: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+}
+
+.expertise-card:first-child {
+  padding-top: 0;
+}
+
+.expertise-card:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+/* Desktop: vertical dividers + side padding, remove horizontal borders */
+@media (min-width: 768px) {
+  .expertise-card {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  .expertise-card:not(:first-child) {
+    padding-left: 48px;
+  }
+  .expertise-card:not(:last-child) {
+    padding-right: 48px;
+    border-right: 1px solid rgba(212, 175, 55, 0.22);
   }
 }
 
