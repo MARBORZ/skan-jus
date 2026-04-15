@@ -1,0 +1,2000 @@
+{
+  "version": "2.9",
+  "children": [
+    {
+      "type": "frame",
+      "id": "DMin6",
+      "x": 900,
+      "y": 0,
+      "name": "SKAN JUS — Landing Page",
+      "width": 1440,
+      "fill": "#0A0A0A",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "WkW0P",
+          "name": "Nav",
+          "width": "fill_container",
+          "height": 80,
+          "fill": "#0A0A0A",
+          "padding": [
+            0,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "BcUOf",
+              "name": "Logo",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "XeQP5",
+                  "name": "Logo Mark",
+                  "fill": "#D4AF37",
+                  "width": 2,
+                  "height": 32
+                },
+                {
+                  "type": "text",
+                  "id": "IffJL",
+                  "name": "logoText",
+                  "fill": "#FFFFFF",
+                  "content": "SKAN JUS",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 20,
+                  "letterSpacing": 3
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "MC473",
+              "name": "Nav Links",
+              "gap": 48,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "wOsAi",
+                  "name": "link1",
+                  "fill": "#999999",
+                  "content": "Ekspertise",
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 13,
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "xrwgc",
+                  "name": "link2",
+                  "fill": "#999999",
+                  "content": "Om Oss",
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 13,
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "Z1YbX",
+                  "name": "link3",
+                  "fill": "#999999",
+                  "content": "Klienter",
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 13,
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "T1QSI",
+                  "name": "link4",
+                  "fill": "#999999",
+                  "content": "Kontakt",
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 13,
+                  "letterSpacing": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "wvG9z",
+              "name": "CTA",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#D4AF37"
+              },
+              "padding": [
+                12,
+                28
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "N2ltN",
+                  "name": "navCtaText",
+                  "fill": "#D4AF37",
+                  "content": "Book Konsultasjon",
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "kaTtZ",
+          "name": "Nav Border",
+          "opacity": 0.4,
+          "fill": "#D4AF37",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "Tceb9",
+          "name": "Hero",
+          "clip": true,
+          "width": "fill_container",
+          "height": 820,
+          "fill": "#0A0A0A",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Lk8l5",
+              "layoutPosition": "absolute",
+              "x": 0,
+              "y": 0,
+              "name": "Hero BG",
+              "opacity": 0.45,
+              "metadata": {
+                "type": "unsplash",
+                "username": "atefepirzade",
+                "link": "https://unsplash.com/@atefepirzade",
+                "author": "Atefe Pirzade"
+              },
+              "width": 1440,
+              "height": 820,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1767201769118-c7b445571aca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYyNDI4MTl8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              }
+            },
+            {
+              "type": "frame",
+              "id": "6Pjtp",
+              "layoutPosition": "absolute",
+              "x": 0,
+              "y": 0,
+              "name": "Hero Overlay",
+              "width": 1440,
+              "height": 820,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 90,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#0A0A0AEE",
+                    "position": 0
+                  },
+                  {
+                    "color": "#0A0A0A88",
+                    "position": 0.5
+                  },
+                  {
+                    "color": "#0A0A0AEE",
+                    "position": 1
+                  }
+                ]
+              }
+            },
+            {
+              "type": "frame",
+              "id": "JVwZq",
+              "layoutPosition": "absolute",
+              "x": 0,
+              "y": 0,
+              "name": "Hero Content",
+              "width": 1440,
+              "height": 820,
+              "layout": "vertical",
+              "padding": [
+                0,
+                80
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "0hp72",
+                  "name": "Eyebrow",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "puZO1",
+                      "name": "eyebrowLine",
+                      "fill": "#D4AF37",
+                      "width": 40,
+                      "height": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "zytjJ",
+                      "name": "eyebrowText",
+                      "fill": "#D4AF37",
+                      "content": "AKER BRYGGE, OSLO",
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 3
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "MTTSU",
+                  "name": "H1",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": 900,
+                  "content": "Diskresjon.\nIntegritet.\nResultater.",
+                  "lineHeight": 1.05,
+                  "fontFamily": "Fraunces",
+                  "fontSize": 96
+                },
+                {
+                  "type": "frame",
+                  "id": "GMPYN",
+                  "name": "heroSubWrap",
+                  "layout": "vertical",
+                  "padding": [
+                    40,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "AGZej",
+                      "name": "Subtitle",
+                      "fill": "#888888",
+                      "textGrowth": "fixed-width",
+                      "width": 580,
+                      "content": "Spesialisert juridisk rådgivning for private\nformuer og komplekse forretningsstrukturer.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 18
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "SaYJM",
+                  "name": "Hero CTAs",
+                  "gap": 24,
+                  "padding": [
+                    56,
+                    0,
+                    0,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "HBAhN",
+                      "name": "heroPrimaryCta",
+                      "fill": "#D4AF37",
+                      "padding": [
+                        16,
+                        40
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "JjmjN",
+                          "name": "heroCtaText",
+                          "fill": "#0A0A0A",
+                          "content": "Kontakt Oss",
+                          "fontFamily": "Instrument Sans",
+                          "fontSize": 13,
+                          "fontWeight": "600",
+                          "letterSpacing": 1.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MfFYS",
+                      "name": "heroSecondaryCta",
+                      "padding": [
+                        16,
+                        24
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "dTq3p",
+                          "name": "heroSecCtaText",
+                          "fill": "#999999",
+                          "content": "Les Mer →",
+                          "fontFamily": "Instrument Sans",
+                          "fontSize": 13,
+                          "letterSpacing": 1
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "RNLWZ",
+          "name": "Gold Divider",
+          "opacity": 0.35,
+          "fill": "#D4AF37",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "lGzAt",
+          "name": "Ekspertise",
+          "width": "fill_container",
+          "fill": "#0A0A0A",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            100,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "z6hdD",
+              "name": "expEyebrow",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "y41lM",
+                  "name": "expEyeLine",
+                  "fill": "#D4AF37",
+                  "width": 40,
+                  "height": 1
+                },
+                {
+                  "type": "text",
+                  "id": "YmgmL",
+                  "name": "expEyeText",
+                  "fill": "#D4AF37",
+                  "content": "EKSPERTISE",
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 3
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "Kb2MW",
+              "name": "expTitle",
+              "fill": "#FFFFFF",
+              "textGrowth": "fixed-width",
+              "width": 700,
+              "content": "Vår Praksis",
+              "lineHeight": 1.1,
+              "fontFamily": "Fraunces",
+              "fontSize": 56
+            },
+            {
+              "type": "frame",
+              "id": "JY8lW",
+              "name": "Expertise Grid",
+              "width": "fill_container",
+              "padding": [
+                32,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "MVnLw",
+                  "name": "Col 1",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "outside",
+                    "thickness": {
+                      "right": 1
+                    },
+                    "fill": "#D4AF37"
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    0,
+                    48,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "H2nOa",
+                      "name": "expIcon1",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "shield",
+                      "iconFontFamily": "lucide",
+                      "fill": "#D4AF37"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jS7tE",
+                      "name": "expH1",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Formues-\nforvaltning",
+                      "lineHeight": 1.15,
+                      "fontFamily": "Fraunces",
+                      "fontSize": 28
+                    },
+                    {
+                      "type": "text",
+                      "id": "b06Cf",
+                      "name": "expP1",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Strategisk bevaring og vekst av privatformuer. Helhetlig planlegging på tvers av jurisdiksjoner.",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mSJLw",
+                  "name": "Col 2",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "outside",
+                    "thickness": {
+                      "right": 1
+                    },
+                    "fill": "#D4AF37"
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    0,
+                    48
+                  ],
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "ZEhFy",
+                      "name": "expIcon2",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "briefcase",
+                      "iconFontFamily": "lucide",
+                      "fill": "#D4AF37"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hSHAr",
+                      "name": "expH2",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Selskaps-\nrett",
+                      "lineHeight": 1.15,
+                      "fontFamily": "Fraunces",
+                      "fontSize": 28
+                    },
+                    {
+                      "type": "text",
+                      "id": "SOJa5",
+                      "name": "expP2",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Rådgivning ved fusjoner, oppkjøp og strukturering av komplekse forretningsstrukturer.",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "YuWYK",
+                  "name": "Col 3",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    0,
+                    0,
+                    0,
+                    48
+                  ],
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "okky1",
+                      "name": "expIcon3",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "trending-down",
+                      "iconFontFamily": "lucide",
+                      "fill": "#D4AF37"
+                    },
+                    {
+                      "type": "text",
+                      "id": "HJVBg",
+                      "name": "expH3",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Skatte-\noptimalisering",
+                      "lineHeight": 1.15,
+                      "fontFamily": "Fraunces",
+                      "fontSize": 28
+                    },
+                    {
+                      "type": "text",
+                      "id": "fLAtf",
+                      "name": "expP3",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Legal minimering av skattebelastning. Strukturer tilpasset norsk og internasjonal lovgivning.",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 14
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "3k2Ra",
+          "name": "Gold Divider 2",
+          "opacity": 0.35,
+          "fill": "#D4AF37",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "h49h3",
+          "name": "Trust Block",
+          "clip": true,
+          "width": "fill_container",
+          "fill": "#0A0A0A",
+          "children": [
+            {
+              "type": "frame",
+              "id": "r4RLC",
+              "name": "Trust Left",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 48,
+              "padding": [
+                100,
+                80
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "32sag",
+                  "name": "trustEyebrow",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "t0pet",
+                      "name": "trustEyeLine",
+                      "fill": "#D4AF37",
+                      "width": 40,
+                      "height": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "Tpdga",
+                      "name": "trustEyeText",
+                      "fill": "#D4AF37",
+                      "content": "TILLIT OG ERFARING",
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 3
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "Ynla3",
+                  "name": "trustQuote",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": 560,
+                  "content": "Beskyttelse av verdier\npå tvers av\ngenerasjoner.",
+                  "lineHeight": 1.1,
+                  "fontFamily": "Fraunces",
+                  "fontSize": 52
+                },
+                {
+                  "type": "frame",
+                  "id": "88t1b",
+                  "name": "Stats",
+                  "gap": 64,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "UZVUc",
+                      "name": "Stat 1",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "JFbnE",
+                          "name": "stat1Num",
+                          "fill": "#D4AF37",
+                          "content": "25+",
+                          "lineHeight": 1,
+                          "fontFamily": "Fraunces",
+                          "fontSize": 48
+                        },
+                        {
+                          "type": "text",
+                          "id": "sZtXJ",
+                          "name": "stat1Label",
+                          "fill": "#666666",
+                          "content": "år med ekspertise",
+                          "fontFamily": "Instrument Sans",
+                          "fontSize": 13,
+                          "letterSpacing": 0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "srt4k",
+                      "name": "statDivider",
+                      "opacity": 0.3,
+                      "fill": "#D4AF37",
+                      "width": 1,
+                      "height": 56
+                    },
+                    {
+                      "type": "frame",
+                      "id": "FJVXW",
+                      "name": "Stat 2",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "LcLkV",
+                          "name": "stat2Num",
+                          "fill": "#D4AF37",
+                          "content": "480+",
+                          "lineHeight": 1,
+                          "fontFamily": "Fraunces",
+                          "fontSize": 48
+                        },
+                        {
+                          "type": "text",
+                          "id": "UGcsz",
+                          "name": "stat2Label",
+                          "fill": "#666666",
+                          "content": "vellykkede saker",
+                          "fontFamily": "Instrument Sans",
+                          "fontSize": 13,
+                          "letterSpacing": 0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "pwYyw",
+                      "name": "statDivider2",
+                      "opacity": 0.3,
+                      "fill": "#D4AF37",
+                      "width": 1,
+                      "height": 56
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vub0w",
+                      "name": "Stat 3",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "278v4",
+                          "name": "stat3Num",
+                          "fill": "#D4AF37",
+                          "content": "12",
+                          "lineHeight": 1,
+                          "fontFamily": "Fraunces",
+                          "fontSize": 48
+                        },
+                        {
+                          "type": "text",
+                          "id": "Ixzro",
+                          "name": "stat3Label",
+                          "fill": "#666666",
+                          "content": "jurisdiksjoner",
+                          "fontFamily": "Instrument Sans",
+                          "fontSize": 13,
+                          "letterSpacing": 0.5
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Q9FEb",
+              "layoutPosition": "absolute",
+              "x": 880,
+              "y": 0,
+              "name": "Trust Right",
+              "opacity": 0.5,
+              "metadata": {
+                "type": "unsplash",
+                "username": "helenao",
+                "link": "https://unsplash.com/@helenao",
+                "author": "Helena Lindberg"
+              },
+              "width": 560,
+              "height": 560,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1540502399586-b3c9af3d11c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYyNDI4NjR8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              }
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "srHEN",
+          "name": "Gold Divider 3",
+          "opacity": 0.35,
+          "fill": "#D4AF37",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "2q5lv",
+          "name": "Transition Divider",
+          "width": 1440,
+          "height": 160,
+          "fill": "#0a0806",
+          "layout": "vertical",
+          "justifyContent": "space_around",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "62GNp",
+              "name": "innerRow",
+              "width": 800,
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "4S5Y1",
+                  "name": "lineLeft",
+                  "opacity": 0.6,
+                  "fill": "#C4A45A",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "b5rA1",
+                  "name": "ornament",
+                  "rotation": 45,
+                  "width": 32,
+                  "height": 32,
+                  "fill": "#0a0806",
+                  "stroke": {
+                    "align": "center",
+                    "thickness": 1,
+                    "fill": "#C4A45A"
+                  },
+                  "layout": "vertical",
+                  "justifyContent": "center",
+                  "alignItems": "center"
+                },
+                {
+                  "type": "rectangle",
+                  "id": "XdTla",
+                  "name": "lineRight",
+                  "opacity": 0.6,
+                  "fill": "#C4A45A",
+                  "width": "fill_container",
+                  "height": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "UTwGN",
+          "name": "Biography",
+          "width": "fill_container",
+          "fill": "#0A0A0A",
+          "children": [
+            {
+              "type": "frame",
+              "id": "80TIW",
+              "name": "Bio Photo",
+              "metadata": {
+                "type": "unsplash",
+                "username": "spliff_dj_joe",
+                "link": "https://unsplash.com/@spliff_dj_joe",
+                "author": "Dwayne joe"
+              },
+              "width": 560,
+              "height": "fill_container",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1770283556277-812f8b185a64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYyNDMzNzZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              }
+            },
+            {
+              "type": "frame",
+              "id": "pB0gi",
+              "name": "Bio Left",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 28,
+              "padding": 80,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "RjSx3",
+                  "name": "bioEyebrow",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "BzZpG",
+                      "name": "bioLine",
+                      "fill": "#D4AF37",
+                      "width": 40,
+                      "height": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "GkCzr",
+                      "name": "bioEyeText",
+                      "fill": "#D4AF37",
+                      "content": "OM PARTNEREN",
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 3
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "ub5hc",
+                  "name": "bioName",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Erik M. Skansen",
+                  "lineHeight": 1.05,
+                  "fontFamily": "Fraunces",
+                  "fontSize": 52,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "uU94L",
+                  "name": "bioTitle",
+                  "fill": "#D4AF37",
+                  "content": "GRUNNLEGGER & SENIORPARTNER",
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "rectangle",
+                  "id": "IXw18",
+                  "name": "bioDivLine",
+                  "opacity": 0.4,
+                  "fill": "#D4AF37",
+                  "width": 60,
+                  "height": 1
+                },
+                {
+                  "type": "text",
+                  "id": "W4U2I",
+                  "name": "bioText1",
+                  "fill": "#AAAAAA",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Med over 20 års erfaring innen kommersielle tvister, kontraktsrett og M&A-transaksjoner, har Erik Skansen bygget et rykte som en av Norges fremste advokater for næringslivet. Hans pragmatiske og resultatorienterte tilnærming har hjulpet hundrevis av bedrifter gjennom komplekse juridiske utfordringer.",
+                  "lineHeight": 1.75,
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "AIE64",
+                  "name": "bioText2",
+                  "fill": "#AAAAAA",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Tidligere partner ved Wiersholm og Thommessen. Utdannet ved Universitetet i Oslo (cand.jur.) og Harvard Law School (LL.M.). Rangert blant Norges 50 mest innflytelsesrike jurister av Legal500 tre år på rad.",
+                  "lineHeight": 1.75,
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "kmZsG",
+                  "name": "bioCredsRow",
+                  "gap": 40,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "zRGOn",
+                      "name": "bioCred1",
+                      "fill": "#666666",
+                      "content": "Harvard Law School\nLL.M., 2003",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "E8ytL",
+                      "name": "bioCred2",
+                      "fill": "#666666",
+                      "content": "Universitetet i Oslo\ncand.jur., 2001",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qkZ2n",
+                      "name": "bioCred3",
+                      "fill": "#666666",
+                      "content": "Legal500 Norge\nTop 50 Jurister, 2024",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "0FMi5",
+          "name": "Process Divider",
+          "opacity": 0.35,
+          "fill": "#D4AF37",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "Xo6Y0",
+          "name": "Process",
+          "width": "fill_container",
+          "fill": "#050505",
+          "layout": "vertical",
+          "gap": 60,
+          "padding": [
+            100,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "dEvnF",
+              "name": "procEyebrow",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "09g3p",
+                  "name": "procLine",
+                  "fill": "#D4AF37",
+                  "width": 40,
+                  "height": 1
+                },
+                {
+                  "type": "text",
+                  "id": "DfAb5",
+                  "name": "procEyeText",
+                  "fill": "#D4AF37",
+                  "content": "VÅR TILNÆRMING",
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 3
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "5ObUQ",
+              "name": "procTitle",
+              "fill": "#FFFFFF",
+              "textGrowth": "fixed-width",
+              "width": 700,
+              "content": "Systematisk. Grundig.\nResultatdrevet.",
+              "lineHeight": 1.1,
+              "fontFamily": "Fraunces",
+              "fontSize": 52,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "n8Ueb",
+              "name": "procGrid",
+              "width": "fill_container",
+              "gap": 2,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "UhIVa",
+                  "name": "step1",
+                  "width": "fill_container",
+                  "fill": "#0D0D0D",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    48,
+                    40
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BDXGm",
+                      "name": "s1num",
+                      "fill": "#D4AF37",
+                      "content": "01",
+                      "lineHeight": 1,
+                      "fontFamily": "Fraunces",
+                      "fontSize": 36,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zFw4q",
+                      "name": "s1title",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Første konsultasjon",
+                      "fontFamily": "Fraunces",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hAbcO",
+                      "name": "s1desc",
+                      "fill": "#777777",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Vi lytter til din situasjon og gir en ærlig, klar vurdering med konkrete neste steg.",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "FlbX3",
+                  "name": "step2",
+                  "width": "fill_container",
+                  "fill": "#0D0D0D",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    48,
+                    40
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Rpa2a",
+                      "name": "s2num",
+                      "fill": "#D4AF37",
+                      "content": "02",
+                      "lineHeight": 1,
+                      "fontFamily": "Fraunces",
+                      "fontSize": 36,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "8p02b",
+                      "name": "s2title",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Analyse & Strategi",
+                      "fontFamily": "Fraunces",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Qs3Hk",
+                      "name": "s2desc",
+                      "fill": "#777777",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Vi gjennomgår all dokumentasjon og utarbeider en skreddersydd strategi tilpasset dine mål.",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "yg7Px",
+                  "name": "step3",
+                  "width": "fill_container",
+                  "fill": "#0D0D0D",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    48,
+                    40
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "6AkY4",
+                      "name": "s3num",
+                      "fill": "#D4AF37",
+                      "content": "03",
+                      "lineHeight": 1,
+                      "fontFamily": "Fraunces",
+                      "fontSize": 36,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xgaE9",
+                      "name": "s3title",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Gjennomføring",
+                      "fontFamily": "Fraunces",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kggQd",
+                      "name": "s3desc",
+                      "fill": "#777777",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Vi handler presist og effektivt, alltid med fokus på å sikre dine interesser og det beste utfallet.",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "FAsKF",
+                  "name": "step4",
+                  "width": "fill_container",
+                  "fill": "#0D0D0D",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    48,
+                    40
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "2n1v8",
+                      "name": "s4num",
+                      "fill": "#D4AF37",
+                      "content": "04",
+                      "lineHeight": 1,
+                      "fontFamily": "Fraunces",
+                      "fontSize": 36,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LAQzI",
+                      "name": "s4title",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Oppfølging",
+                      "fontFamily": "Fraunces",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cbbey",
+                      "name": "s4desc",
+                      "fill": "#777777",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Vi følger opp resultater og forblir tilgjengelig for fremtidige juridiske behov.",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "T5CLo",
+          "name": "Test Divider",
+          "opacity": 0.35,
+          "fill": "#D4AF37",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "sslxn",
+          "name": "Testimonials",
+          "width": "fill_container",
+          "fill": "#0A0A0A",
+          "layout": "vertical",
+          "gap": 60,
+          "padding": [
+            100,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "hMGkt",
+              "name": "testEyebrow",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "KiDLv",
+                  "name": "testLine",
+                  "fill": "#D4AF37",
+                  "width": 40,
+                  "height": 1
+                },
+                {
+                  "type": "text",
+                  "id": "tpk58",
+                  "name": "testEyeText",
+                  "fill": "#D4AF37",
+                  "content": "KLIENTOMTALER",
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 3
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "8mlIs",
+              "name": "testTitle",
+              "fill": "#FFFFFF",
+              "textGrowth": "fixed-width",
+              "width": 700,
+              "content": "Tillit bygget gjennom resultater.",
+              "lineHeight": 1.1,
+              "fontFamily": "Fraunces",
+              "fontSize": 48,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "QGa1Q",
+              "name": "testGrid",
+              "width": "fill_container",
+              "gap": 28,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "gbJmK",
+                  "name": "tc1",
+                  "width": "fill_container",
+                  "fill": "#0D0D0D",
+                  "stroke": {
+                    "align": "outside",
+                    "thickness": 1,
+                    "fill": "#222222"
+                  },
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": 40,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "OXaO7",
+                      "name": "tc1q",
+                      "fill": "#CCCCCC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "«Skan Jus håndterte vår M&A-transaksjon med eksepsjonell presisjon. Erik og teamet er de beste advokatene vi har jobbet med — og vi har jobbet med mange.»",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "JLhbZ",
+                      "name": "tc1d",
+                      "opacity": 0.6,
+                      "fill": "#D4AF37",
+                      "width": 40,
+                      "height": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "0Us06",
+                      "name": "tc1a",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Thomas Berge\nAdm. direktør, Norsk Kapital AS",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qvytO",
+                  "name": "tc2",
+                  "width": "fill_container",
+                  "fill": "#0D0D0D",
+                  "stroke": {
+                    "align": "outside",
+                    "thickness": 1,
+                    "fill": "#222222"
+                  },
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": 40,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "7SKR9",
+                      "name": "tc2q",
+                      "fill": "#CCCCCC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "«Profesjonalitet og diskresjon på høyeste nivå. Da vi sto overfor en alvorlig tvist, sikret Skan Jus at vi kom styrket ut av situasjonen.»",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "cMQQF",
+                      "name": "tc2d",
+                      "opacity": 0.6,
+                      "fill": "#D4AF37",
+                      "width": 40,
+                      "height": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "LAaBz",
+                      "name": "tc2a",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Ingrid Halvorsen\nStyreleder, Bergen Eiendom Gruppen",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "zgxa5",
+                  "name": "tc3",
+                  "width": "fill_container",
+                  "fill": "#0D0D0D",
+                  "stroke": {
+                    "align": "outside",
+                    "thickness": 1,
+                    "fill": "#222222"
+                  },
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": 40,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Jegse",
+                      "name": "tc3q",
+                      "fill": "#CCCCCC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "«Rask respons, klar kommunikasjon og sterke resultater. Skan Jus er det eneste advokatfirmaet jeg anbefaler til mine kontakter og partnere.»",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "zQ41R",
+                      "name": "tc3d",
+                      "opacity": 0.6,
+                      "fill": "#D4AF37",
+                      "width": 40,
+                      "height": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "4sEr8",
+                      "name": "tc3a",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Lars Eriksen\nPartner, Nordic Ventures",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "LARlf",
+          "name": "CTA Section",
+          "width": "fill_container",
+          "fill": "#0A0A0A",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            100,
+            80
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "MIE8d",
+              "name": "ctaSubtext",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "lhFpG",
+                  "name": "ctaLine1",
+                  "fill": "#D4AF37",
+                  "width": 40,
+                  "height": 1
+                },
+                {
+                  "type": "text",
+                  "id": "R4r2Q",
+                  "name": "ctaEyeLabel",
+                  "fill": "#D4AF37",
+                  "content": "DISKRÉ — KONFIDENSIELT — PRESIST",
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "rectangle",
+                  "id": "smweX",
+                  "name": "ctaLine2",
+                  "fill": "#D4AF37",
+                  "width": 40,
+                  "height": 1
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "aMNBx",
+              "name": "ctaHeadline",
+              "fill": "#FFFFFF",
+              "textGrowth": "fixed-width",
+              "width": 900,
+              "content": "La oss beskytte det\nsom betyr mest.",
+              "lineHeight": 1.05,
+              "textAlign": "center",
+              "fontFamily": "Fraunces",
+              "fontSize": 64
+            },
+            {
+              "type": "text",
+              "id": "oaffa",
+              "name": "ctaDesc",
+              "fill": "#666666",
+              "textGrowth": "fixed-width",
+              "width": 560,
+              "content": "Diskré. Effektiv. Med Oslo og internasjonalt nettverk.",
+              "textAlign": "center",
+              "fontFamily": "Instrument Sans",
+              "fontSize": 16,
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "frame",
+              "id": "chf1l",
+              "name": "ctaButtons",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "WRhHu",
+                  "name": "ctaPrimary",
+                  "fill": "#D4AF37",
+                  "padding": [
+                    18,
+                    48
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "7qqxK",
+                      "name": "ctaPrimaryText",
+                      "fill": "#0A0A0A",
+                      "content": "Book Konsultasjon",
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 13,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.5
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "2cOQN",
+                  "name": "ctaSecondary",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#333333"
+                  },
+                  "padding": [
+                    18,
+                    48
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "yiK6s",
+                      "name": "ctaSecondaryText",
+                      "fill": "#666666",
+                      "content": "Tlf: +47 22 00 00 00",
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 13,
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "2nDo6",
+          "name": "Footer Top Divider",
+          "opacity": 0.35,
+          "fill": "#D4AF37",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "314ag",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "#050505",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            60,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "9lotu",
+              "name": "Footer Top",
+              "width": "fill_container",
+              "gap": 80,
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "rmoss",
+                  "name": "Brand",
+                  "width": 320,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "t588e",
+                      "name": "footerLogoRow",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "doLFj",
+                          "name": "footerLogoMark",
+                          "fill": "#D4AF37",
+                          "width": 2,
+                          "height": 28
+                        },
+                        {
+                          "type": "text",
+                          "id": "LVq7Y",
+                          "name": "footerLogoText",
+                          "fill": "#FFFFFF",
+                          "content": "SKAN JUS",
+                          "fontFamily": "Fraunces",
+                          "fontSize": 18,
+                          "letterSpacing": 3
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "3acPe",
+                      "name": "footerTagline",
+                      "fill": "#444444",
+                      "textGrowth": "fixed-width",
+                      "width": 280,
+                      "content": "Juridisk rådgivning av høyeste kaliber.\nAker Brygge, Oslo.",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "PTgi4",
+                  "name": "Nav Col 1",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "vR0wR",
+                      "name": "footerNavTitle1",
+                      "fill": "#D4AF37",
+                      "content": "TJENESTER",
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 10,
+                      "fontWeight": "600",
+                      "letterSpacing": 2.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "wmr5M",
+                      "name": "footerNavItem1",
+                      "fill": "#444444",
+                      "content": "Formuesforvaltning",
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qTr73",
+                      "name": "footerNavItem2",
+                      "fill": "#444444",
+                      "content": "Selskapsrett",
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "5UFTb",
+                      "name": "footerNavItem3",
+                      "fill": "#444444",
+                      "content": "Skatteoptimalisering",
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "tDIvG",
+                      "name": "footerNavItem4",
+                      "fill": "#444444",
+                      "content": "Internasjonal Rett",
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ovQKY",
+                  "name": "Nav Col 2",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "PuDhy",
+                      "name": "footerNavTitle2",
+                      "fill": "#D4AF37",
+                      "content": "FIRMA",
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 10,
+                      "fontWeight": "600",
+                      "letterSpacing": 2.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "IxsOG",
+                      "name": "footerNavItem5",
+                      "fill": "#444444",
+                      "content": "Om Oss",
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "i2HyI",
+                      "name": "footerNavItem6",
+                      "fill": "#444444",
+                      "content": "Våre Advokater",
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kT18d",
+                      "name": "footerNavItem7",
+                      "fill": "#444444",
+                      "content": "Karriere",
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mjGma",
+                      "name": "footerNavItem8",
+                      "fill": "#444444",
+                      "content": "Kontakt",
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "V2Mx5",
+              "name": "footerBottomDivider",
+              "fill": "#1A1A1A",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "HzYRP",
+              "name": "Footer Bottom",
+              "width": "fill_container",
+              "padding": [
+                24,
+                0,
+                0,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "fKRIS",
+                  "name": "footerCopyright",
+                  "fill": "#2A2A2A",
+                  "content": "© 2025 SKAN JUS AS. Alle rettigheter forbeholdt.",
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.3
+                },
+                {
+                  "type": "frame",
+                  "id": "MmLlE",
+                  "name": "footerLegal",
+                  "gap": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "m0SZ4",
+                      "name": "legalLink1",
+                      "fill": "#2A2A2A",
+                      "content": "Personvern",
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ma59X",
+                      "name": "legalLink2",
+                      "fill": "#2A2A2A",
+                      "content": "Vilkår",
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "4tVM4",
+                      "name": "legalLink3",
+                      "fill": "#2A2A2A",
+                      "content": "Advokatetiske regler",
+                      "fontFamily": "Instrument Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "LVENu",
+          "name": "Gold Divider 3",
+          "opacity": 0.35,
+          "fill": "#D4AF37",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "rectangle",
+          "id": "RVDjr",
+          "name": "Gold Divider 3",
+          "opacity": 0.35,
+          "fill": "#D4AF37",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "rectangle",
+          "id": "6H4yx",
+          "name": "Gold Divider 3",
+          "opacity": 0.35,
+          "fill": "#D4AF37",
+          "width": "fill_container",
+          "height": 1
+        }
+      ]
+    }
+  ]
+}
