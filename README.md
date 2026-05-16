@@ -2,7 +2,21 @@
 
 Premium legal services landing page for a Norwegian law firm. Built with React 19, TypeScript, Framer Motion, Lenis, and Tailwind CSS v4.
 
-## Stack
+## 🎨 About
+
+SKAN JUS is a sophisticated landing page for a fictional Norwegian law firm, showcasing premium legal services with elegant animations, smooth scrolling, and a custom cursor. Features a dark aesthetic with gold accents, framerate-independent animations, and fully responsive design.
+
+## ✨ Features
+
+- **Custom Triangle Cursor** — Pointer-fine devices only, native cursor on touch
+- **Lenis Smooth Scroll** — Time-based (1.2s duration), framerate-independent
+- **Framer Motion Animations** — Scroll-triggered entrance animations with reduced-motion support
+- **Responsive Design** — Mobile-first approach, animations disabled on mobile
+- **Tailwind CSS v4** — Modern utility-first styling with custom design tokens
+- **TypeScript** — Full type safety
+- **React 19** — Latest React with compiler optimizations
+
+## 🛠️ Tech Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -12,7 +26,19 @@ Premium legal services landing page for a Norwegian law firm. Built with React 1
 | Framer Motion | Scroll & entrance animations |
 | Lenis | Smooth scroll (framerate-independent) |
 
-## Project Structure
+## 🚀 Getting Started
+
+```bash
+bun install
+bun run dev
+```
+
+```bash
+bun run build
+bun run preview
+```
+
+## 📁 Project Structure
 
 ```
 src/
@@ -39,29 +65,19 @@ src/
 └── types/index.ts                # TypeScript interfaces
 ```
 
-## Getting Started
+## 🎯 Key Sections
 
-```bash
-bun install
-bun run dev
-```
+- **Navbar** — Sticky navigation with mobile hamburger menu
+- **Hero** — Full-height hero with parallax effect
+- **Expertise** — Three-column practice areas showcase
+- **TrustBlock** — Statistics and image split layout
+- **Biography** — Partner biography with photo
+- **Process** — Four-step process grid
+- **Testimonials** — Client testimonials section
+- **CTASection** — Final call-to-action
+- **Footer** — Multi-column footer with navigation
 
-```bash
-bun run build
-bun run preview
-```
-
-## Animation Notes
-
-**Lenis** is initialised with `duration: 1.2s` (time-based, not `lerp`) — fully framerate-independent, correct at 60 Hz, 120 Hz, and 144 Hz+.
-
-**Framer Motion** animations are disabled on:
-- Mobile screens (`< 768px`) — elements render immediately, no entrance delay
-- OS-level `prefers-reduced-motion` setting
-
-**Custom cursor** (triangle arrow) is shown only on `pointer: fine` devices. On touch/mobile the native cursor is preserved.
-
-## Design Tokens
+## 🎨 Design Tokens
 
 Defined in `src/index.css` via Tailwind v4 `@theme` — auto-generates utility classes:
 
@@ -73,3 +89,27 @@ Defined in `src/index.css` via Tailwind v4 `@theme` — auto-generates utility c
   --font-instrument: ...;  /* → font-instrument */
 }
 ```
+
+## 🎯 Animation Notes
+
+**Lenis** is initialised with `duration: 1.2s` (time-based, not `lerp`) — fully framerate-independent, correct at 60 Hz, 120 Hz, and 144 Hz+.
+
+**Framer Motion** animations are disabled on:
+- Mobile screens (`< 768px`) — elements render immediately, no entrance delay
+- OS-level `prefers-reduced-motion` setting
+
+**Custom cursor** (triangle arrow) is shown only on `pointer: fine` devices. On touch/mobile the native cursor is preserved.
+
+## 🎯 Learning Goals
+
+- React 19 with TypeScript 6
+- Tailwind CSS v4 design tokens
+- Lenis smooth scroll integration
+- Custom cursor implementation
+- Framer Motion scroll animations
+- Responsive design with animation considerations
+- Accessibility (reduced-motion support)
+
+---
+
+**Note:** Portfolio project demonstrating premium landing page design with sophisticated animations.
