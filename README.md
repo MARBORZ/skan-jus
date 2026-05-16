@@ -1,20 +1,20 @@
 # SKAN JUS — Landing Page
 
-Premium legal services landing page for a Norwegian law firm. Built with React 19, TypeScript, Framer Motion, Lenis, and Tailwind CSS v4.
+Law firm landing page with React, TypeScript, and Tailwind CSS v4. Has a custom cursor and smooth scrolling.
 
 ## 🎨 About
 
-SKAN JUS is a sophisticated landing page for a fictional Norwegian law firm, showcasing premium legal services with elegant animations, smooth scrolling, and a custom cursor. Features a dark aesthetic with gold accents, framerate-independent animations, and fully responsive design.
+Fictional Norwegian law firm site. Dark theme with gold accents. Built to practice custom cursor implementation and Tailwind v4 design tokens.
 
 ## ✨ Features
 
-- **Custom Triangle Cursor** — Pointer-fine devices only, native cursor on touch
-- **Lenis Smooth Scroll** — Time-based (1.2s duration), framerate-independent
-- **Framer Motion Animations** — Scroll-triggered entrance animations with reduced-motion support
-- **Responsive Design** — Mobile-first approach, animations disabled on mobile
-- **Tailwind CSS v4** — Modern utility-first styling with custom design tokens
-- **TypeScript** — Full type safety
-- **React 19** — Latest React with compiler optimizations
+- **Custom Triangle Cursor** — Only on desktop, native cursor on mobile
+- **Lenis Smooth Scroll** — Time-based, works at any framerate
+- **Framer Motion** — Scroll animations with reduced-motion support
+- **Responsive** — Mobile-first, animations off on small screens
+- **Tailwind CSS v4** — Custom design tokens
+- **TypeScript** — Type checking
+- **React 19** — Latest React
 
 ## 🛠️ Tech Stack
 
